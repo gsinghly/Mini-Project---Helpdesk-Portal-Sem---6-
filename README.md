@@ -9,7 +9,7 @@
     <img src="img5.png" width="800" height="300" />
 </p>
 <h2>Team Members:-</h2><br/>
-  )<a href="https://github.com/ceejay">Chetan Joshi(ceejay)</a><br/>
+1)<a href="https://github.com/ceejay">Chetan Joshi(ceejay)</a><br/>
 2)<a href="https://github.com/masterchef2209">Hidayat Khan(masterchef2209)</a><br/>
 3)<a href="https://github.com/saintpopo">Gaurav Singh(saintpopo)</a><br/>
 
