@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Complaint List</h2>
+
+<div class="ui divided items">
+	{% for obj in object_list %}
+		<div class="item">
+			<div class="content">
+		      <a class="header" href="{% url 'tickets:update' pk=obj.id %}">{{ obj }}</a>
+		      <div class="meta">
+		        <span class="cinema">Author '{{ obj.created_by }}'</span>
+		        <span class="cinema">{{ obj.urgency }} urgency</span>
+		      </div>
+		      <div class="description">
+		        {{ obj.get_description }}
+		      </div>
+		      <div class="extra">
+		      	<a class="ui primary button" href={% url 'tickets:update' pk=obj.id %}>Update</a>
+		      </div>
+                 <img src={{obj.imagefile.url}} target="_blank" height="200" width="200" align="right">
+                 <br /><br />
+		    </div>
+		</div>
+	{% endfor %}
+</div>
+{% endblock content %}
