@@ -1,5 +1,5 @@
 attrs==17.4.0
-Django==1.11.29
+Django==2.2.24
 django-extensions==2.0.5
 django-vanilla-views==1.0.4
 greenlet==0.4.13
